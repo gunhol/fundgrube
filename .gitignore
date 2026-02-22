@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.DS_Store
+public/items.json
+
+# Ignore images in the incoming folder
+incoming/*.jpg
+incoming/*.jpeg
+incoming/*.png
+incoming/*.JPG
+incoming/*.JPEG
+incoming/*.PNG
+incoming/*.gif
+incoming/*.GIF
+incoming/*.bmp
+incoming/*.BMP

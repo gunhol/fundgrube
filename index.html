@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fundgrube Gallery</title>
+  <meta name="description" content="A simple gallery of items I am giving away." />
+  <!-- Google Fonts for premium typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Fundgrube</h1>
+      <p>A collection of things I no longer need, looking for a new home.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="filter-bar" class="filter-bar">
+      <!-- Tag filters will appear here -->
+    </div>
+
+    <div id="gallery" class="gallery">
+      <!-- Rendered items will appear here -->
+      <div class="loader">Loading items...</div>
+    </div>
+  </main>
+
+
+  <!-- Item Detail Modal -->
+  <div id="item-modal" class="modal hidden">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content">
+      <button id="modal-close" class="modal-close" aria-label="Close modal">&times;</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "fundgrube",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node build_index.js && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
