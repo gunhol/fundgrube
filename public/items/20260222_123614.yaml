@@ -1,0 +1,4 @@
+- title: "Philips Hue Bridge"
+  description: "Hue Bridge, required to run some Philips smart lights"
+  productlink: "https://www.philips-hue.com/de-ch/p/hue-bridge-smarte-schaltzentrale-weis/8719514342620"
+  tags: ["smart home"]
